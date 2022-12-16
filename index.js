@@ -15,19 +15,14 @@ app.get('/', (request, response) => {
     response.send('Welcome to Deloitte node app...');
 });
 
-app.get('/home', (request, response) => {
-    console.log('Home');
-    response.send('Home...');
-});
-
 app.get('/contact', (request, response) => {
     console.log('Contact');
     response.send('Contact...');
 });
 
-app.get('/about', (request, response) => {
-    console.log('about');
-    response.send('About...');
+app.get('/home', (request, response) => {
+    console.log('Home');
+    response.send('Home...');
 });
 
 
